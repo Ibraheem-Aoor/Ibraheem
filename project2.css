@@ -1,0 +1,51 @@
+body{
+background: linear-gradient(to bottom, #616161, #9bc5c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+div{
+    background: linear-gradient(to bottom, #e0eafc, #cfdef3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 1100px;
+    height: 740px;
+transform: translateX(160px);
+padding-top: 20px;
+opacity: 0.9;
+
+}
+
+#h1{  
+opacity: 1;
+
+}
+
+
+
+
+#header{
+font-size: 50px;
+font-family: 'Calistoga', cursive;
+}
+
+h1{
+font-size: 20px;
+}
+
+#input1{
+border-top-style: none; border-left-style: none; border-right-style: none;
+background: none;
+
+}
+
+#input2{
+
+width: 300px;
+height: 100px;
+}
+
+#select{
+ width: 100px;   
+
+}
+#input9{
+    width: 120px;
+}

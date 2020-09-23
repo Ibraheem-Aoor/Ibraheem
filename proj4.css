@@ -1,0 +1,176 @@
+body{
+ width: auto;
+ height: auto;
+ background: url(fuckn.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ width: 1200px;
+ height: 700px;
+ opacity:0.7;
+ animation-name: backgroundchange;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease-in-out;
+ animation-fill-mode: both;
+ 
+ 
+
+
+}
+
+
+
+
+
+header{
+    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9); 
+    width: 1200px;
+   color: white;
+   height: 100px;
+   font-size: 50px;
+   font-family: 'Oswald', sans-serif;
+   animation-name: wtf;
+   animation-duration: 1s;
+   text-align: center;
+   animation-name: headerchange;
+   animation-duration: 9s;
+}
+
+.asaide{
+    position: relative;
+    left: 1224px;
+    max-width:200px;
+    height: 785px;
+    background: linear-gradient(to right, #23074d, #cc5333); 
+    transform: translateY(-268px);
+    padding-right: 6px;
+    animation-name: asidefuck;
+    animation-duration: 9s;
+    
+    
+    
+
+}
+.asaide button{
+background: none;    border:none;
+ transform: rotate(-90deg);
+position: fixed;
+margin-top: 320px;
+font-size: 65px;
+color: black;
+
+}
+
+
+
+
+
+
+header{
+animation-name: fuck;
+animation-duration: 3s;
+}
+
+#font1{
+   font-weight: bolder; 
+}
+p{
+word-spacing: 100px;
+color: black;
+font-size: 50px;
+margin-bottom: px;
+animation-name: scale-up-center ;
+animation-duration: 3s;
+
+
+
+}
+
+
+
+p button{
+
+ box-sizing: border-box;
+ width: 250px;
+border-radius: 10px;
+font-weight: bold;
+
+}
+#button{
+width: 300px;
+height: 200px;
+margin-top: 200px;
+font-size: 90px;
+background: linear-gradient(to right, #ff4e50, #f9d423); 
+font-family: 'Roboto Slab', serif;
+
+color: white;
+opacity: 1;
+}
+ .b1{
+     position: relative;
+     right:80px;
+     font-size: 24px;
+     
+ }
+.b2{
+    position: relative;
+    right: 10px;
+    font-size: 24px;
+}
+.b3{
+    position: relative;
+    left: 30px;
+    font-size: 24px;
+
+}
+
+@keyframes headerchange{
+    from{ background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);}
+    to{  background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080);}
+}
+
+@keyframes asidefuck{
+from{background: linear-gradient(to right, #23074d, #cc5333); }
+to{ background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080); }
+
+}
+
+@keyframes backgroundchange{
+    0%{background-image: url(fuckn.jpg);  background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; }
+    100%{ background-image: url(fuckk.jpg); background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;}
+}
+
+@-webkit-keyframes fuck{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes fuck{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+@-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+
+
+
+
+/*
+.b1{
+width: 250px;
+height: 60px;
+background:none;
+}
+/*.b1:focus{
+ background-color: #f9d423;
+ width: 300px;
+ height: 30px;      
+ we use transaition with foucs and hover
+ transation: duration property delay ;
+}
+
+
+
+
+
+ 

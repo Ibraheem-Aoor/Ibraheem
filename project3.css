@@ -1,0 +1,53 @@
+.div1{
+    width: auto;
+    height: 300px;
+    background-color: red;
+    
+}
+.h1{
+width: auto;    
+height: 150px;
+background-color: saddlebrown;
+
+
+}
+.h1 img{
+width: 400px;
+height: 150px;
+background-color: saddlebrown;
+image-resolution: 1000px;
+}
+.h1 p{
+transform: translateY(-160px);
+position: relative;
+left: 40px;
+}
+.h2{
+    background-color: seagreen;
+    width: auto;
+    height: 150px;
+    
+
+}
+.main1{
+    background-color: darkgrey;
+    width: 1200;
+    height: 800px;
+}
+
+.p1 img{
+image-resolution: 5000px;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    left: 700px;
+    padding-left: 4px
+}
+
+
+
+.foot1{
+width: 1000;
+height: 200px;
+background-color: darkviolet;
+}
